@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+*{
+    outline: 0px;
+    margin:0px;
+    padding:0px;
+}
+
+/* navigation bar */
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'DatalegreyaThin';
+  font-weight: bold;
+}
+
+header > a {
+  display:flex;
+  justify-content: center;
+  text-decoration: none;
+  color: black;
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+header > a:link{
+  transition: color 0.5s, font-size 0.5s;
+}
+
+header > a:hover {
+  color: rgb(70, 190, 154);
+  font-size: 22px;
+  transition: color 0.5s, font-size 0.5s;
+  /* background-image: linear-gradient(rgb(235, 235, 235), rgb(255, 255, 255)); */
+}
+
+
+
+/* Hero */
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  background-image: url("images/Fallingwater.png");
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat';
+  padding: 60px;
+  padding-top: 60px;
+  /* background-repeat: no-repeat; */
+  background-attachment: fixed;
+  color:black;
+}
+
+.tint > img {
+  max-width: 200px;margin-left: auto;
+  margin-right: auto;
+    border-radius:25%;
+}
+
+.tint > h1 {
+  padding: 20px;
+  padding-bottom: 10px;
+  font-size: 45px;
+  
+}
+
+.tint{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align:center;
+  padding: 20px;
+  background-color:rgba(255, 255, 255, 0.575);
+  border-radius: 25px;
+}
+
+/* welcome */
+
+.welcome {
+  font-family: 'Montserrat';
+  text-align: center;
+  padding: 20px;
+	font-size: 20px;
+	padding-bottom: 0px;
+}
+
+/* Cards */
+
+.container > a {
+  text-decoration: none;
+  color: black;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Fjalla One';
+  padding: 20px;
+}
+
+.card {
+  display:flex;
+  color:black;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(243, 243, 243);
+  border-radius: 20px;
+  margin: 10px;
+  height: 200px;
+  padding: 25px;
+  width: 200px;
+}
+
+#card1:hover{
+  background-position: 800px 1300px;
+  background-image: linear-gradient(0deg, rgba(238, 173, 112, 0.329), rgba(236, 157, 84, 0.308)), url(images/Fallingwater.png);
+  color: white;
+  transition: height 1s, color 1s;
+  height: 240px;
+}
+
+#card2:hover{
+  background-position: center;
+  background-image: url("images/Miles Morales.png");
+  color:white;
+  transition: height 1s, color 1s;
+  height: 240px;
+}
+
+#card3:hover{
+  background-position: right;
+  background-image: url("images/canyon.png");
+  color: white;
+  transition: height 1s, color 1s;
+  height: 240px;
+}
+
+#card4:hover{
+  background-position: top center;
+  background-image: url("images/Mysterious World.png");
+  color:white;
+  transition: height 1s, color 1s;
+  height: 240px;
+}
+
+#card5:hover{
+  background-position: top center;
+  background-image: url("images/Festival.png");
+  color:white;
+  transition: height 1s, color 1s;
+  height: 240px;
+}
+
+/* Use bolder fonts for hero text! */
+.card > p {
+  font-family: 'Montserrat';
+  padding: 20px;
+}
+
+.card > i {
+  font-size: 40px;
+  padding: 20px;
+}
+
+.card > h2 {
+  font-size: 30px;
+}
+
+/* quote */
+.quote {
+	padding: 20px;
+	font-size: 30px;
+	background-color:rgba(243, 243, 243, 0.425);
+	font-family: 'Montserrat';
+	text-align:center;
+	padding-right:100px;
+	padding-left:100px;
+	margin-bottom:40px;
+}
+
+.quote > * {
+	padding: 20px;
+}
+
+/* footer */
+footer {
+	padding: 20px;
+	background-color:rgb(243, 243, 243);
+	font-family: 'Montserrat';
+	text-align:center;
+}
+
+@media only screen and (min-width: 600px) {
+  header{
+    flex-direction: row;
+  }
+  .hero {
+    padding: 100px;
+  }
+  .card{
+    min-width:500px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .container{
+    flex-direction:row;
+  }
+
+  .card {
+    width:none;
+    min-width: 0px;
+    max-width: 200px;
+  }
+}
