@@ -1,2 +1,2 @@
-# jakeportfolio
-All About Me
+# sophie&mel
+All About US
