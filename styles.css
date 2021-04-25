@@ -194,7 +194,7 @@ header > a:hover {
 	padding: 20px;
 }
 
-{
+.hide {
 	padding: 20px;
 	font-size: 30px;
 	background-color:rgba(243, 243, 243, 0.425);
