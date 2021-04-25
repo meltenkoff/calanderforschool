@@ -1,3 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+*{
+    outline: 0px;
+    margin:0px;
+    padding:0px;
+}
+
+/* navigation bar */
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'DatalegreyaThin';
+  font-weight: bold;
+}
+
+header > a {
+  display:flex;
+  justify-content: center;
+  text-decoration: none;
+  color: black;
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+header > a:link{
+  transition: color 0.5s, font-size 0.5s;
+}
+
+header > a:hover {
+  color: rgb(109, 124, 192);
+  font-size: 22px;
+  transition: color 0.5s, font-size 0.5s;
+  /* background-image: linear-gradient(rgb(235, 235, 235), rgb(255, 255, 255)); */
+}
+
 body {
   padding-top: 50px;
 }
