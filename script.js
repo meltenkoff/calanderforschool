@@ -119,39 +119,39 @@ function clearStatusClass(element) {
 
 const questions = [
   {
-    question: 'Where should a shoe be thrown into?',
+    question: 'What are some good habits?',
     answers: [
-      { text: 'Garbage Can', correct: true },
-      { text: 'The Ocean', correct: false },
-      { text: 'Recyle Bin', correct: false }
+      { text: 'Cleaning Up', correct: true },
+      { text: 'Sleeping Enought', correct: true },
+      { text: 'Constantly Sitting', correct: false }
     ]
   },
 
   {
-    question: 'Where should plastic bottled water be thrown into?',
+    question: 'What is a good way to manage stress?',
     answers: [
-      { text: 'The Ocean', correct: false },
-      { text: 'Garbage Can', correct: false },
-      { text: 'The Floor', correct: false },
-      { text: 'Recycle Bin', correct: true }
+      { text: 'Binge Eating', correct: false },
+      { text: 'Throwing a Tantrum', correct: false },
+      { text: 'Exercising', correct: true },
+      { text: 'Playing with your Pet', correct: true }
     ]
   },
 
   {
-    question: 'Where should you dispose of batteries?',
+    question: 'How to organize your work',
     answers: [
-      { text: 'The Ocean', correct: false },
-      { text: 'Garbage Can', correct: false },
-      { text: 'Recycle Bin', correct: true },
-      { text: 'Thow them at your pet', correct: false }
+      { text: 'Do it on the Last Day', correct: false },
+      { text: 'Producive Procrastination', correct: true },
+      { text: 'Little by Little', correct: true },
+      { text: 'Do not do it', correct: false }
     ]
   },
 
   {
-    question: 'Should the ocean be used as a garbage?',
+    question: 'Are you able?',
     answers: [
-      { text: 'Yes', correct: false },
-      { text: 'No', correct: true }
+      { text: 'Yes', correct: true },
+      { text: 'No', correct: False }
     ]
   }
 ]
