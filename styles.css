@@ -43,7 +43,24 @@ header > a:hover {
 
 
 /* Hero */
+.allie{
+	text-decoration:none;
+}
+.button {
+	background-color: pink;
+	padding: 20px;
+	margin:20px;
+	border-radius: 25px;
+	color:black;
+	font-family:'Montserrat';
+	transition: 1s;
+}
 
+.button:hover{
+	transition: 1s;
+	transform: scale(1.1);
+	background-color: rgb(158, 235, 238);
+}
 .hero {
   display: flex;
   flex-direction: column;
