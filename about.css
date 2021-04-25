@@ -47,7 +47,7 @@ header > a:hover {
 .hero {
   display: flex;
   flex-direction: column;
-  background-image: url("images/Festival.png");
+  background-image: url("images/Miles Morales.png");
 	background-position: 1600px 1100px;
   justify-content: center;
   align-items: center;
